@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title> Roy Zhao </title>
+    <link rel="stylesheet" href="../style.css">
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-117539184-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-117539184-1');
+    </script>
+  </head>
+  <body>
+
+    <div id='header'>
+      <table width="100%">
+	<tbody>
+	  <tr>
+	    <td>
+	      <div id="name"><a href="../index.html" style="text-decoration: none; color: inherit;">Roy Zhao</a>
+	      </div>
+	    </td>
+	    <td align="right" valign="middle">
+	      <div class="navbar">
+		<a class="header" href="../index.html">About</a>
+		<a class="header" href="../teaching.html">Teaching</a>
+	      </div>
+	    </td>
+	  </tr>
+	</tbody>
+      </table>
+    </div>
+
+    <hr>
+    <div id='page'>
+      <div id='content'>
+	<h1>Methods of Mathematics: Calculus, Statistics and Combinatorics</h1>
+	<h1>Math 10B, Spring 2019</h1>
+	<h1>Instructor: Professor Stankova</h1>
+	<hr>
+	<div style="display: inline-block; text-align: left; align: left">
+	  <h2>Syllabus</h2>
+	  <a href="https://math.berkeley.edu/~stankova/10BS19/Student%20Handout%2010BS19.pdf">PDF</a>
+	  <hr>
+	  <h2>Discussions</h2>
+	  Section 206: Evans 81, TTh 930AM-11AM <br>
+	  Section 203: Evans 51, TTh 11AM-1230PM
+	  <hr>
+	  <h2>Office Hours</h2>
+	  Office hours are held Mondays 330-430 and Thursday 4-5 in Evans 1042.<br>
+	  <hr>
+	  <h2>Resources</h2>
+	  The <a href="http://slc.berkeley.edu/math-10b">Student Learning Center</a> has study groups and drop-in hours for Math 10B.<br>
+	  More worksheets and quiz practice can be found at another GSI's webpage <a href="https://math.berkeley.edu/~jrowan/10BS19/">here</a>.
+	  <hr>
+	  <h2>Quizzes</h2>
+	  <table>
+	    <tbody>
+	      <tr>
+		<td>
+		  Quiz 1 (1/29/2019) </td> <td>
+		  <a href="Quizzes/Quiz 1 Section 206.pdf">206</a>
+		</td>
+		<td>
+		  <a href="Quizzes/Quiz 1 Section 206 Solutions.pdf">Solutions</a>
+		</td>
+		<td>
+		</td>
+		<td>
+		  <a href="Quizzes/Quiz 1 Section 203.pdf">203</a>
+		</td>
+		<td>
+		  <a href="Quizzes/Quiz 1 Section 203 Solutions.pdf">Solutions</a>
+		</td>
+	      </tr>
+	      <tr>
+		<td>
+		  Quiz 2 (2/5/2019) </td> <td>
+		  <a href="Quizzes/Quiz 2 Section 206.pdf">206</a>
+		</td>
+		<td>
+		  <a href="Quizzes/Quiz 2 Section 206 Solutions.pdf">Solutions</a>
+		</td>
+		<td>
+		</td>
+		<td>
+		  <a href="Quizzes/Quiz 2 Section 203.pdf">203</a>
+		</td>
+		<td>
+		  <a href="Quizzes/Quiz 2 Section 203 Solutions.pdf">Solutions</a>
+		</td>
+	      </tr>
+	      <tr>
+		<td>
+		  Quiz 3 (2/12/2019) </td> <td>
+		  <a href="Quizzes/Quiz 3 Section 206.pdf">206</a>
+		</td>
+		<td>
+		  <a href="Quizzes/Quiz 3 Section 206 Solutions.pdf">Solutions</a>
+		</td>
+		<td>
+		</td>
+		<td>
+		  <a href="Quizzes/Quiz 3 Section 203.pdf">203</a>
+		</td>
+		<td>
+		  <a href="Quizzes/Quiz 3 Section 203 Solutions.pdf">Solutions</a>
+		</td>
+	      </tr>
+	      <tr>
+		<td>
+		  Quiz 4 (2/19/2019) </td> <td>
+		  <a href="Quizzes/Quiz 4 Section 206.pdf">206</a>
+		</td>
+		<td>
+		  <a href="Quizzes/Quiz 4 Section 206 Solutions.pdf">Solutions</a>
+		</td>
+		<td>
+		</td>
+		<td>
+		  <a href="Quizzes/Quiz 4 Section 203.pdf">203</a>
+		</td>
+		<td>
+		  <a href="Quizzes/Quiz 4 Section 203 Solutions.pdf">Solutions</a>
+		</td>
+	      </tr>
+	    </tbody>
+	  </table>
+	  <hr>
+	  <h2>Review Guides</h2>
+	  <table>
+	    <tbody>
+	      <tr>
+		<td>
+		  Midterm I (2/27/2019)
+		</td>
+		<td>
+		  <a href="Worksheets/Midterm 1 Review">PDF</a>
+		</td>
+		<td>
+		  <a href="Worksheets/Midterm 1 Review Solutions.pdf">Solutions</a>
+		</td>
+	      </tr>
+	    </tbody>
+</table>
+	<hr>
+	<h2>Schedule</h2>
+	<table border="" cellpadding="1">
+	  <tr style="font-weight: bold; background: #e0e0ff">
+	    <td>Date</td>
+	    <td>Topic</td>
+	    <td>Worksheets</td>
+	  </tr>
+	  <tr>
+	    <td>Thurs 1/24</td>
+	    <td>Introductions; Basics of Counting</td>
+	    <td><a href="Worksheets/Discussion 1.pdf">PDF</a> <a href="Worksheets/Discussion 1 Solutions.pdf">Solutions</a></td>
+	  </tr>
+	  <tr>
+	    <td>Tues 1/29</td>
+	    <td> Complementary Counting; PIE </td>
+	    <td><a href="Worksheets/Discussion 2.pdf">PDF</a> <a href="Worksheets/Discussion 2 Solutions.pdf">Solutions</a></td>
+	  </tr>
+	  <tr>
+	    <td>Thurs 1/31</td>
+	    <td>PHP; Permutations and Combinations </td>
+	    <td><a href="Worksheets/Discussion 3.pdf">PDF</a> <a href="Worksheets/Discussion 3 Solutions.pdf">Solutions</a></td>
+	  </tr>
+	  <tr>
+	    <td>Tues 2/5</td>
+	    <td>Binomial Identities; Permutations and Combinations </td>
+	    <td><a href="Worksheets/Discussion 4.pdf">PDF</a> <a href="Worksheets/Discussion 4 Solutions.pdf">Solutions</a></td>
+	  </tr>
+	  <tr>
+	    <td>Thurs 2/7</td>
+	    <td>Distinguishable Boxes; Indistinguishable Boxes </td>
+	    <td><a href="Worksheets/Discussion 5.pdf">PDF</a> <a href="Worksheets/Discussion 5 Solutions.pdf">Solutions</a></td>
+	  </tr>
+	  <tr>
+	    <td>Tues 2/12</td>
+	    <td>Algorithms </td>
+	    <td><a href="Worksheets/Discussion 6.pdf">PDF</a> <a href="Worksheets/Discussion 6 Solutions.pdf">Solutions</a></td>
+	  </tr>
+	  <tr>
+	    <td>Thurs 2/14</td>
+	    <td>Mathematical Induction </td>
+	    <td><a href="Worksheets/Discussion 7.pdf">PDF</a> <a href="Worksheets/Discussion 7 Solutions.pdf">Solutions</a></td>
+	  </tr>
+	  <tr>
+	    <td>Tues 2/19</td>
+	    <td>More Induction; Probability </td>
+	    <td><a href="Worksheets/Discussion 8.pdf">PDF</a> <a href="Worksheets/Discussion 8 Solutions.pdf">Solutions</a></td>
+	  </tr>
+	  <tr>
+	    <td>Thurs 2/21</td>
+	    <td>Conditional Probability </td>
+	    <td><a href="Worksheets/Discussion 9.pdf">PDF</a> <a href="Worksheets/Discussion 9 Solutions.pdf">Solutions</a></td>
+	  </tr>
+	</table>
+	</div>
+      </div>
+    </div>
+  </body>
+</html>

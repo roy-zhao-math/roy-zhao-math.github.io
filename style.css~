@@ -1,0 +1,124 @@
+h1 {
+    text-align: center;
+    font-family: 'Exo', sans-serif;
+    font-weight: bold;
+    line-height: 110%;
+    font-size: 30pt;
+    color: #003262;
+}
+
+a.header {
+    font-family: 'Exo', sans-serif;
+    font-style: normal;
+    font-size: 22pt;
+    padding-left: 20pt;
+    padding-right: 20pt;
+    text-decoration:  none;
+    color: #003262;
+}
+
+a.link {
+    font-family: "Lucida Sans Unicode", "Lucida Grande", Arial, sans-serif;
+    font-style: normal;
+    font-size: 12pt;
+    text-decoration:  none;
+    color: #C4820E;
+}
+
+h2 {
+    font-family: "Lucida Sans Unicode", "Lucida Grande", Arial, sans-serif;
+    font-style: normal;
+    font-size: 18pt;
+    color: #003262;
+}
+
+.page_link {
+    font-family: "Lucida Sans Unicode", "Lucida Grande", Arial, sans-serif;
+    text-decoration: underline;
+    padding: 0px;
+    font-size: 12pt;
+    color: blue;
+}
+
+body {
+    color:#000000; /* This controls the black font in the body */
+    font-family: "Lucida Sans Unicode", "Lucida Grande", Arial, sans-serif;
+}
+
+a:hover, a:active {}
+
+.navbar {
+    display: inline;
+    text-align: right;
+    margin-bottom: 50pt;
+}
+
+.obfuscate{ cursor:default; }
+.obfuscate .ob-dud{ display:none; }
+.obfuscate .ob-ta::after{ content:"@"; }
+.obfuscate .ob-tod::after{ content:"."; }
+
+#header {
+    width: auto;
+    margin: auto;
+    overflow: hidden;
+}
+
+#name {
+    text-align: left;
+    font-family: 'Exo', sans-serif;
+    font-weight: bold;
+    font-size: 30pt;
+    color: #003262;
+}
+
+#content{
+    width: auto;
+    line-height:160%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#page{
+    margin-top: 10px;
+    width: auto;
+    padding: 10px;
+}
+
+#proofreading-link {
+        /*font-family: "ÃÂÂÃÂÂÃâºâÃÂâ", "Microsoft Yahei","åèéé", "STXihei", "åŽæçé";
+	 */
+}
+
+#content-reduced-width {
+    margin-right: auto;
+    margin-left: auto;
+    width: 500px;
+}
+
+#list-container {
+    width: 430px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#sidebar {
+    min-width:210px;
+    float:left;
+    line-height:140%;
+    background-color:#FFFFFF;
+    border: 0px solid #E5E5E5;
+    margin-top: 5px;
+    margin-right: 15px;
+    margin-bottom: 0;
+    margin-left: 15px;
+}
+
+#intro {
+    width: 500px;
+    padding: 15px;
+}
+
+td {
+    padding-left: 15px;
+}

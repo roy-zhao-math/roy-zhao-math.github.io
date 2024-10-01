@@ -1,0 +1,678 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title> Roy Zhao </title>
+    <link rel="stylesheet" href="../style.css">
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-117539184-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-117539184-1');
+    </script>
+  </head>
+  <body>
+
+    <div id='header'>
+      <table width="100%">
+	<tbody>
+	  <tr>
+	    <td>
+	      <div id="name"><a href="../index.html" style="text-decoration: none; color: inherit;">Roy Zhao</a>
+	      </div>
+	    </td>
+	    <td align="right" valign="middle">
+	      <div class="navbar">
+		<a class="header" href="../index.html">About</a>
+		<a class="header" href="../teaching.html">Teaching</a>
+	      </div>
+	    </td>
+	  </tr>
+	</tbody>
+      </table>
+    </div>
+
+    <hr>
+    <div id='page'>
+      <div id='content'>
+	<h1>Methods of Mathematics: Calculus, Statistics and Combinatorics</h1>
+	<h1>Math 10B, Spring 2018</h1>
+	<h1>Instructor: Professor Stankova</h1>
+	<hr>
+	<div style="display: inline-block; text-align: left; align: left">
+	  <h2>Syllabus</h2>
+	  <a href="https://math.berkeley.edu/~stankova/10BS18/Student%20Handout%2010BS18.pdf">PDF</a>
+	  <hr>
+	  <h2>Discussions</h2>
+	  Section 203: Evans 81, TTh 930AM-11AM <br>
+	  Section 211: Evans 81, TTh 11AM-1230PM
+	  <hr>
+	  <h2>Office Hours</h2>
+	  Office hours are held Thursdays 2PM-3PM and Fridays 12PM-1PM in Evans 836.<br>
+	  ***For finals week, additional office hours will be held Monday 12PM-1PM***<br>
+	  <hr>
+	  <h2>Quizzes</h2>
+	  <table>
+	    <tbody>
+	      <tr>
+		<td>
+		  Quiz 1 (1/23/2018)
+		</td>
+		<td>
+		  <a href="Quizzes/Quiz 1 Section 203.pdf">203</a>
+		</td>
+		<td>
+		  <a href="Quizzes/Quiz 1 Section 203 Solutions.pdf">Solutions</a>
+		</td>
+		<td>
+		</td>
+		<td>
+		  <a href="Quizzes/Quiz 1 Section 211.pdf">211</a>
+		</td>
+		<td>
+		  <a href="Quizzes/Quiz 1 Section 211 Solutions.pdf">Solutions</a>
+		</td>
+	      </tr>
+	      <tr>
+		<td>
+		  Quiz 2 (1/30/2018)
+		</td>
+		<td>
+		  <a href="Quizzes/Quiz 2 Section 203.pdf">203</a>
+		</td>
+		<td>
+		  <a href="Quizzes/Quiz 2 Section 203 Solutions.pdf">Solutions</a>
+		</td>
+		<td>
+		</td>
+		<td>
+		  <a href="Quizzes/Quiz 2 Section 211.pdf">211</a>
+		</td>
+		<td>
+		  <a href="Quizzes/Quiz 2 Section 211 Solutions.pdf">Solutions</a>
+		</td>
+	      </tr>
+	      <tr>
+		<td>
+		  Quiz 3 (2/6/2018)
+		</td>
+		<td>
+		  <a href="Quizzes/Quiz 3 Section 203.pdf">203</a>
+		</td>
+		<td>
+		  <a href="Quizzes/Quiz 3 Section 203 Solutions.pdf">Solutions</a>
+		</td>
+		<td>
+		</td>
+		<td>
+		  <a href="Quizzes/Quiz 3 Section 211.pdf">211</a>
+		</td>
+		<td>
+		  <a href="Quizzes/Quiz 3 Section 211 Solutions.pdf">Solutions</a>
+		</td>
+	      </tr>
+	      <tr>
+		<td>
+		  Quiz 4 (2/13/2018)
+		</td>
+		<td>
+		  <a href="Quizzes/Quiz 4 Section 203.pdf">203</a>
+		</td>
+		<td>
+		  <a href="Quizzes/Quiz 4 Section 203 Solutions.pdf">Solutions</a>
+		</td>
+		<td>
+		</td>
+		<td>
+		  <a href="Quizzes/Quiz 4 Section 211.pdf">211</a>
+		</td>
+		<td>
+		  <a href="Quizzes/Quiz 4 Section 211 Solutions.pdf">Solutions</a>
+		</td>
+	      </tr>
+	      <tr>
+		<td>
+		  Quiz 5 (2/20/2018)
+		</td>
+		<td>
+		  <a href="Quizzes/Quiz 5 Section 203.pdf">203</a>
+		</td>
+		<td>
+		  <a href="Quizzes/Quiz 5 Section 203 Solutions.pdf">Solutions</a>
+		</td>
+		<td>
+		</td>
+		<td>
+		  <a href="Quizzes/Quiz 5 Section 211.pdf">211</a>
+		</td>
+		<td>
+		  <a href="Quizzes/Quiz 5 Section 211 Solutions.pdf">Solutions</a>
+		</td>
+	      </tr>
+	      <tr>
+		<td>
+		  Quiz 6 (2/27/2018)
+		</td>
+		<td>
+		  <a href="Quizzes/Quiz 6 Section 203.pdf">203</a>
+		</td>
+		<td>
+		  <a href="Quizzes/Quiz 6 Section 203 Solutions.pdf">Solutions</a>
+		</td>
+		<td>
+		</td>
+		<td>
+		  <a href="Quizzes/Quiz 6 Section 211.pdf">211</a>
+		</td>
+		<td>
+		  <a href="Quizzes/Quiz 6 Section 211 Solutions.pdf">Solutions</a>
+		</td>
+	      </tr>
+	      <tr>
+		<td>
+		  Quiz 7 (3/6/2018)
+		</td>
+		<td>
+		  <a href="Quizzes/Quiz 7 Section 203.pdf">203</a>
+		</td>
+		<td>
+		  <a href="Quizzes/Quiz 7 Section 203 Solutions.pdf">Solutions</a>
+		</td>
+		<td>
+		</td>
+		<td>
+		  <a href="Quizzes/Quiz 7 Section 211.pdf">211</a>
+		</td>
+		<td>
+		  <a href="Quizzes/Quiz 7 Section 211 Solutions.pdf">Solutions</a>
+		</td>
+	      </tr>
+	      <tr>
+		<td>
+		  Quiz 8 (3/13/2018)
+		</td>
+		<td>
+		  <a href="Quizzes/Quiz 8 Section 203.pdf">203</a>
+		</td>
+		<td>
+		  <a href="Quizzes/Quiz 8 Section 203 Solutions.pdf">Solutions</a>
+		</td>
+		<td>
+		</td>
+		<td>
+		  <a href="Quizzes/Quiz 8 Section 211.pdf">211</a>
+		</td>
+		<td>
+		  <a href="Quizzes/Quiz 8 Section 211 Solutions.pdf">Solutions</a>
+		</td>
+	      </tr>
+	      <tr>
+		<td>
+		  Quiz 9 (3/20/2018)
+		</td>
+		<td>
+		  <a href="Quizzes/Quiz 9 Section 203.pdf">203</a>
+		</td>
+		<td>
+		  <a href="Quizzes/Quiz 9 Section 203 Solutions.pdf">Solutions</a>
+		</td>
+		<td>
+		</td>
+		<td>
+		  <a href="Quizzes/Quiz 9 Section 211.pdf">211</a>
+		</td>
+		<td>
+		  <a href="Quizzes/Quiz 9 Section 211 Solutions.pdf">Solutions</a>
+		</td>
+	      </tr>
+	      <tr>
+	      <tr>
+		<td>
+		  Quiz 10 (4/3/2018)
+		</td>
+		<td>
+		  <a href="Quizzes/Quiz 10 Section 203.pdf">203</a>
+		</td>
+		<td>
+		  <a href="Quizzes/Quiz 10 Section 203 Solutions.pdf">Solutions</a>
+		</td>
+		<td>
+		</td>
+		<td>
+		  <a href="Quizzes/Quiz 10 Section 211.pdf">211</a>
+		</td>
+		<td>
+		  <a href="Quizzes/Quiz 10 Section 211 Solutions.pdf">Solutions</a>
+		</td>
+	      </tr>
+	      <tr>
+		<td>
+		  Quiz 11 (4/10/2018)
+		</td>
+		<td>
+		  <a href="Quizzes/Quiz 11 Section 203.pdf">203</a>
+		</td>
+		<td>
+		  <a href="Quizzes/Quiz 11 Section 203 Solutions.pdf">Solutions</a>
+		</td>
+		<td>
+		</td>
+		<td>
+		  <a href="Quizzes/Quiz 11 Section 211.pdf">211</a>
+		</td>
+		<td>
+		  <a href="Quizzes/Quiz 11 Section 211 Solutions.pdf">Solutions</a>
+		</td>
+	      </tr>
+	      <tr>
+		<td>
+		  Quiz 12 (4/17/2018)
+		</td>
+		<td>
+		  <a href="Quizzes/Quiz 12 Section 203.pdf">203</a>
+		</td>
+		<td>
+		  <a href="Quizzes/Quiz 12 Section 203 Solutions.pdf">Solutions</a>
+		</td>
+		<td>
+		</td>
+		<td>
+		  <a href="Quizzes/Quiz 12 Section 211.pdf">211</a>
+		</td>
+		<td>
+		  <a href="Quizzes/Quiz 12 Section 211 Solutions.pdf">Solutions</a>
+		</td>
+	      </tr>
+	      <tr>
+		<td>
+		  Quiz 13 (4/24/2018)
+		</td>
+		<td>
+		  <a href="Quizzes/Quiz 13 Section 203.pdf">203</a>
+		</td>
+		<td>
+		  <a href="Quizzes/Quiz 13 Section 203 Solutions.pdf">Solutions</a>
+		</td>
+		<td>
+		</td>
+		<td>
+		  <a href="Quizzes/Quiz 13 Section 211.pdf">211</a>
+		</td>
+		<td>
+		  <a href="Quizzes/Quiz 13 Section 211 Solutions.pdf">Solutions</a>
+		</td>
+	      </tr>
+	      <tr>
+		<td>
+		  Quiz 14 (5/1/2018)
+		</td>
+		<td>
+		  <a href="Quizzes/Quiz 14 Section 203.pdf">203</a>
+		</td>
+		<td>
+		  <a href="Quizzes/Quiz 14 Section 203 Solutions.pdf">Solutions</a>
+		</td>
+		<td>
+		</td>
+		<td>
+		  <a href="Quizzes/Quiz 14 Section 211.pdf">211</a>
+		</td>
+		<td>
+		  <a href="Quizzes/Quiz 14 Section 211 Solutions.pdf">Solutions</a>
+		</td>
+	      </tr>
+	    </tbody>
+	  </table>
+	  <hr>
+	  <h2>Worksheets</h2>
+	  <table>
+	    <tbody>
+	      <tr>
+		<td>
+		  Discussion 1 (1/18/2018)
+		</td>
+		<td>
+		  <a href="Worksheets/Discussion 1.pdf">PDF</a>
+		</td>
+		<td>
+		  <a href="Worksheets/Discussion 1 Solutions.pdf">Solutions</a>
+		</td>
+	      </tr>
+	      <tr>
+		<td>
+		  Discussion 2 (1/23/2018)
+		</td>
+		<td>
+		  <a href="Worksheets/Discussion 2.pdf">PDF</a>
+		</td>
+		<td>
+		  <a href="Worksheets/Discussion 2 Solutions.pdf">Solutions</a>
+		</td>
+	      </tr>
+	      <tr>
+		<td>
+		  Discussion 3 (1/25/2018)
+		</td>
+		<td>
+		  <a href="Worksheets/Discussion 3.pdf">PDF</a>
+		</td>
+		<td>
+		  <a href="Worksheets/Discussion 3 Solutions.pdf">Solutions</a>
+		</td>
+	      </tr>
+	      <tr>
+		<td>
+		  Discussion 4 (1/30/2018)
+		</td>
+		<td>
+		  <a href="Worksheets/Discussion 4.pdf">PDF</a>
+		</td>
+		<td>
+		  <a href="Worksheets/Discussion 4 Solutions.pdf">Solutions</a>
+		</td>
+	      </tr>
+	      <tr>
+		<td>
+		  Discussion 5 (2/1/2018)
+		</td>
+		<td>
+		  <a href="Worksheets/Discussion 5.pdf">PDF</a>
+		</td>
+		<td>
+		  <a href="Worksheets/Discussion 5 Solutions.pdf">Solutions</a>
+		</td>
+	      </tr>
+	      <tr>
+		<td>
+		  Discussion 6 (2/6/2018)
+		</td>
+		<td>
+		  <a href="Worksheets/Discussion 6.pdf">PDF</a>
+		</td>
+		<td>
+		  <a href="Worksheets/Discussion 6 Solutions.pdf">Solutions</a>
+		</td>
+	      </tr>
+	      <tr>
+		<td>
+		  Discussion 7 (2/8/2018)
+		</td>
+		<td>
+		  <a href="Worksheets/Discussion 7.pdf">PDF</a>
+		</td>
+		<td>
+		  <a href="Worksheets/Discussion 7 Solutions.pdf">Solutions</a>
+		</td>
+	      </tr>
+	      <tr>
+		<td>
+		  Discussion 8 (2/13/2018)
+		</td>
+		<td>
+		  <a href="Worksheets/Discussion 8.pdf">PDF</a>
+		</td>
+		<td>
+		  <a href="Worksheets/Discussion 8 Solutions.pdf">Solutions</a>
+		</td>
+	      </tr>
+	      <tr>
+		<td>
+		  Discussion 9 (2/15/2018)
+		</td>
+		<td>
+		  <a href="Worksheets/Discussion 9.pdf">PDF</a>
+		</td>
+		<td>
+		  <a href="Worksheets/Discussion 9 Solutions.pdf">Solutions</a>
+		</td>
+	      </tr>
+	      <tr>
+		<td>
+		  Discussion 10 (2/20/2018)
+		</td>
+		<td>
+		  <a href="Worksheets/Discussion 10.pdf">PDF</a>
+		</td>
+		<td>
+		  <a href="Worksheets/Discussion 10 Solutions.pdf">Solutions</a>
+		</td>
+	      </tr>
+	      <tr>
+		<td>
+		  Discussion 11 (2/22/2018)
+		</td>
+		<td>
+		  <a href="Worksheets/Discussion 11.pdf">PDF</a>
+		</td>
+		<td>
+		  <a href="Worksheets/Discussion 11 Solutions.pdf">Solutions</a>
+		</td>
+	      </tr>
+	      <tr>
+		<td>
+		  Discussion 12 (2/27/2018)
+		</td>
+		<td>
+		  <a href="Worksheets/Discussion 12.pdf">PDF</a>
+		</td>
+		<td>
+		  <a href="Worksheets/Discussion 12 Solutions.pdf">Solutions</a>
+		</td>
+	      </tr>
+	      <tr>
+		<td>
+		  Discussion 13 (3/1/2018)
+		</td>
+		<td>
+		  <a href="Worksheets/Discussion 13.pdf">PDF</a>
+		</td>
+		<td>
+		  <a href="Worksheets/Discussion 13 Solutions.pdf">Solutions</a>
+		</td>
+	      </tr>
+	      <tr>
+		<td>
+		  Discussion 14 (3/6/2018)
+		</td>
+		<td>
+		  <a href="Worksheets/Discussion 14.pdf">PDF</a>
+		</td>
+		<td>
+		  <a href="Worksheets/Discussion 14 Solutions.pdf">Solutions</a>
+		</td>
+	      </tr>
+	      <tr>
+		<td>
+		  Discussion 15 (3/8/2018)
+		</td>
+		<td>
+		  <a href="Worksheets/Discussion 15.pdf">PDF</a>
+		</td>
+		<td>
+		  <a href="Worksheets/Discussion 15 Solutions.pdf">Solutions</a>
+		</td>
+	      </tr>
+	      <tr>
+		<td>
+		  Discussion 16 (3/13/2018)
+		</td>
+		<td>
+		  <a href="Worksheets/Discussion 16.pdf">PDF</a>
+		</td>
+		<td>
+		  <a href="Worksheets/Discussion 16 Solutions.pdf">Solutions</a>
+		</td>
+	      </tr>
+	      <tr>
+		<td>
+		  Discussion 17 (3/15/2018)
+		</td>
+		<td>
+		  <a href="Worksheets/Discussion 17.pdf">PDF</a>
+		</td>
+		<td>
+		  <a href="Worksheets/Discussion 17 Solutions.pdf">Solutions</a>
+		</td>
+	      </tr>
+	      <tr>
+		<td>
+		  Discussion 18 (3/20/2018)
+		</td>
+		<td>
+		  <a href="Worksheets/Discussion 18.pdf">PDF</a>
+		</td>
+		<td>
+		  <a href="Worksheets/Discussion 18 Solutions.pdf">Solutions</a>
+		</td>
+	      </tr>
+	      <tr>
+		<td>
+		  Discussion 19 (4/3/2018)
+		</td>
+		<td>
+		  <a href="Worksheets/Discussion 19.pdf">PDF</a>
+		</td>
+		<td>
+		  <a href="Worksheets/Discussion 19 Solutions.pdf">Solutions</a>
+		</td>
+	      </tr>
+	      <tr>
+		<td>
+		  Discussion 20 (4/5/2018)
+		</td>
+		<td>
+		  <a href="Worksheets/Discussion 20.pdf">PDF</a>
+		</td>
+		<td>
+		  <a href="Worksheets/Discussion 20 Solutions.pdf">Solutions</a>
+		</td>
+	      </tr>
+	      <tr>
+		<td>
+		  Discussion 21 (4/10/2018)
+		</td>
+		<td>
+		  <a href="Worksheets/Discussion 21.pdf">PDF</a>
+		</td>
+		<td>
+		  <a href="Worksheets/Discussion 21 Solutions.pdf">Solutions</a>
+		</td>
+	      </tr>
+	      <tr>
+		<td>
+		  Discussion 22 (4/12/2018)
+		</td>
+		<td>
+		  <a href="Worksheets/Discussion 22.pdf">PDF</a>
+		</td>
+		<td>
+		  <a href="Worksheets/Discussion 22 Solutions.pdf">Solutions</a>
+		</td>
+	      </tr>
+	      <tr>
+		<td>
+		  Discussion 23 (4/17/2018)
+		</td>
+		<td>
+		  <a href="Worksheets/Discussion 23.pdf">PDF</a>
+		</td>
+		<td>
+		  <a href="Worksheets/Discussion 23 Solutions.pdf">Solutions</a>
+		</td>
+	      </tr>
+	      <tr>
+		<td>
+		  Discussion 24 (4/19/2018)
+		</td>
+		<td>
+		  <a href="Worksheets/Discussion 24.pdf">PDF</a>
+		</td>
+		<td>
+		  <a href="Worksheets/Discussion 24 Solutions.pdf">Solutions</a>
+		</td>
+	      </tr>
+	      <tr>
+		<td>
+		  Discussion 25 (4/24/2018)
+		</td>
+		<td>
+		  <a href="Worksheets/Discussion 25.pdf">PDF</a>
+		</td>
+		<td>
+		  <a href="Worksheets/Discussion 25 Solutions.pdf">Solutions</a>
+		</td>
+	      </tr>
+	      <tr>
+		<td>
+		  Discussion 26 (4/26/2018)
+		</td>
+		<td>
+		  <a href="Worksheets/Discussion 26.pdf">PDF</a>
+		</td>
+		<td>
+		  <a href="Worksheets/Discussion 26 Solutions.pdf">Solutions</a>
+		</td>
+	      </tr>
+	      <tr>
+		<td>
+		  Discussion 27 (5/1/2018)
+		</td>
+		<td>
+		  <a href="Worksheets/Discussion 27.pdf">PDF</a>
+		</td>
+		<td>
+		  <a href="Worksheets/Discussion 27 Solutions.pdf">Solutions</a>
+		</td>
+	      </tr>
+	      <tr>
+		<td>
+		  Discussion 28 (5/3/2018)
+		</td>
+		<td>
+		  <a href="Worksheets/Discussion 28.pdf">PDF</a>
+		</td>
+		<td>
+		  <a href="Worksheets/Discussion 28 Solutions.pdf">Solutions</a>
+		</td>
+	      </tr>
+	    </tbody>
+	  </table>
+	  <hr>
+	  <h2>Review Guides</h2>
+	  <table>
+	    <tbody>
+	      <tr>
+		<td>
+		  Midterm I (2/16/2018)
+		</td>
+		<td>
+		  <a href="Worksheets/Midterm 1 Review">PDF</a>
+		</td>
+		<td>
+		  <a href="Worksheets/Midterm 1 Review Solutions.pdf">Solutions</a>
+		</td>
+	      </tr>
+	      <tr>
+		<td>
+		  Midterm II (3/21/2018)
+		</td>
+		<td>
+		  <a href="Worksheets/Midterm 2 Concepts">Concepts</a>
+		</td>
+		<td>
+		  <a href="Worksheets/Midterm 2 Review">PDF</a>
+		</td>
+		<td>
+		  <a href="Worksheets/Midterm 2 Review Solutions.pdf">Solutions</a>
+		</td>
+	      </tr>
+	    </tbody>
+	  </table>
+	</div>
+      </div>
+    </div>
+  </body>
+</html>

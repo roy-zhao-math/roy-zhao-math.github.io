@@ -1,0 +1,634 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title> Roy Zhao </title>
+    <link rel="stylesheet" href="../style.css">
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-117539184-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-117539184-1');
+    </script>
+  </head>
+  <body>
+
+    <div id='header'>
+      <table width="100%">
+	<tbody>
+	  <tr>
+	    <td>
+	      <div id="name"><a href="../index.html" style="text-decoration: none; color: inherit;">Roy Zhao</a>
+	      </div>
+	    </td>
+	    <td align="right" valign="middle">
+	      <div class="navbar">
+		<a class="header" href="../index.html">About</a>
+		<a class="header" href="../teaching.html">Teaching</a>
+	      </div>
+	    </td>
+	  </tr>
+	</tbody>
+      </table>
+    </div>
+
+    <hr>
+    <div id='page'>
+      <div id='content'>
+	<h1>Methods of Mathematics: Calculus, Statistics and Combinatorics</h1>
+	<h1>Math 10A, Summer 2018</h1>
+	<h1>Instructor: Roy Zhao</h1>
+	<hr>
+	<div style="display: inline-block; text-align: left; align: left">
+	  <h2>Syllabus</h2>
+	  <a href="Syllabus.pdf">PDF</a>
+	  <hr>
+	  <h2>Sections</h2>
+	  Lecture: Evans 3, MTWThF 2PM-3PM <br>
+	  Discussion: Evans 3, MTWThF 3PM-4PM
+	  <hr>
+	  <h2>Office Hours</h2>
+	  Mondays 4PM-5PM, Tuesdays 1PM-2PM, Thursday 4PM-5PM in Evans 836<br>
+	  <hr>
+	  <h2>Textbook</h2>
+	  The main textbook is <i>Screiber/Smith/Getz: Calculus for the Life Sciences</i><br>
+	  An additional reference is a series of typed up notes available on bCourses:<br>
+	  <table>
+	    <tbody>
+	      <tr>
+		<td>
+		  <a href="https://bcourses.berkeley.edu/files/73244309/download?download_frd=1">Differentiation</a>
+		</td>
+		<td>
+		  <a href="https://bcourses.berkeley.edu/files/73244311/download?download_frd=1">Integration</a>
+		</td>
+		<td>
+		  <a href="https://bcourses.berkeley.edu/files/73244310/download?download_frd=1">Dynamics</a>
+		</td>
+		<td>
+		  <a href="https://bcourses.berkeley.edu/files/73244312/download?download_frd=1">Matrices</a>
+		</td>
+	      </tr>
+	    </tbody>
+	  </table>
+	  <hr>
+	  <h2>Homework</h2>
+	  <table>
+	    <tbody>
+	      <tr>
+		<td>
+		  Homework 1 (due 6/22/2018)
+		</td>
+		<td>
+		  <a href="Homework/HW1.pdf">PDF</a>
+		</td>
+		<td>
+		  <a href="Homework/HW1 Solutions.pdf">Solutions</a>
+		</td>
+	      </tr>
+	      <tr>
+		<td>
+		  Homework 2 (due 6/26/2018)
+		</td>
+		<td>
+		  <a href="Homework/HW2.pdf">PDF</a>
+		</td>
+		<td>
+		  <a href="Homework/HW2 Solutions.pdf">Solutions</a>
+		</td>
+	      </tr>
+	      <tr>
+		<td>
+		  Homework 3 (due 6/29/2018)
+		</td>
+		<td>
+		  <a href="Homework/HW3.pdf">PDF</a>
+		</td>
+		<td>
+		  <a href="Homework/HW3 Solutions.pdf">Solutions</a>
+		</td>
+	      </tr>
+	      <tr>
+		<td>
+		  Homework 4 (due 7/3/2018)
+		</td>
+		<td>
+		  <a href="Homework/HW4.pdf">PDF</a>
+		</td>
+		<td>
+		  <a href="Homework/HW4 Solutions.pdf">Solutions</a>
+		</td>
+	      </tr>
+	      <tr>
+		<td>
+		  Homework 5 (due 7/6/2018)
+		</td>
+		<td>
+		  <a href="Homework/HW5.pdf">PDF</a>
+		</td>
+		<td>
+		  <a href="Homework/HW5 Solutions.pdf">Solutions</a>
+		</td>
+	      </tr>
+	      <tr>
+		<td>
+		  Homework 6 (due 7/13/2018)
+		</td>
+		<td>
+		  <a href="Homework/HW6.pdf">PDF</a>
+		</td>
+		<td>
+		  <a href="Homework/HW6 Solutions.pdf">Solutions</a>
+		</td>
+	      </tr>
+	      <tr>
+		<td>
+		  Homework 7 (due 7/17/2018)
+		</td>
+		<td>
+		  <a href="Homework/HW7.pdf">PDF</a>
+		</td>
+		<td>
+		  <a href="Homework/HW7 Solutions.pdf">Solutions</a>
+		</td>
+	      </tr>
+	      <tr>
+		<td>
+		  Homework 8 (due 7/19/2018)
+		</td>
+		<td>
+		  <a href="Homework/HW8.pdf">PDF</a>
+		</td>
+		<td>
+		  <a href="Homework/HW8 Solutions.pdf">Solutions</a>
+		</td>
+	      </tr>
+	      <tr>
+		<td>
+		  Homework 9 (due 7/24/2018)
+		</td>
+		<td>
+		  <a href="Homework/HW9.pdf">PDF</a>
+		</td>
+		<td>
+		  <a href="Homework/HW9 Solutions.pdf">Solutions</a>
+		</td>
+	      </tr>
+	      <tr>
+		<td>
+		  Homework 10 (due 7/27/2018)
+		</td>
+		<td>
+		  <a href="Homework/HW10.pdf">PDF</a>
+		</td>
+		<td>
+		  <a href="Homework/HW10 Solutions.pdf">Solutions</a>
+		</td>
+	      </tr>
+	      <tr>
+		<td>
+		  Homework 11 (due 7/31/2018)
+		</td>
+		<td>
+		  <a href="Homework/HW11.pdf">PDF</a>
+		</td>
+		<td>
+		  <a href="Homework/HW11 Solutions.pdf">Solutions</a>
+		</td>
+	      </tr>
+	      <tr>
+		<td>
+		  Homework 12 (due 8/3/2018)
+		</td>
+		<td>
+		  <a href="Homework/HW12.pdf">PDF</a>
+		</td>
+		<td>
+		  <a href="Homework/HW12 Solutions.pdf">Solutions</a>
+		</td>
+	      </tr>
+	      <tr>
+		<td>
+		  Homework 13 (due 8/7/2018)
+		</td>
+		<td>
+		  <a href="Homework/HW13.pdf">PDF</a>
+		</td>
+		<td>
+		  <a href="Homework/HW13 Solutions.pdf">Solutions</a>
+		</td>
+	      </tr>
+	    </tbody>
+	  </table>
+	  <hr>
+	  <h2>Quizzes</h2>
+	  <table>
+	    <tbody>
+	      <tr>
+		<td>
+		  Quiz 1 (6/22/2018)
+		</td>
+		<td>
+		  <a href="Quizzes/Quiz 1.pdf">Quiz</a>
+		</td>
+		<td>
+		  <a href="Quizzes/Quiz 1 Solutions.pdf">Solutions</a>
+		</td>
+	      </tr>
+	      <tr>
+		<td>
+		  Quiz 2 (6/26/2018)
+		</td>
+		<td>
+		  <a href="Quizzes/Quiz 2.pdf">Quiz</a>
+		</td>
+		<td>
+		  <a href="Quizzes/Quiz 2 Solutions.pdf">Solutions</a>
+		</td>
+	      </tr>
+	      <tr>
+		<td>
+		  Quiz 3 (6/29/2018)
+		</td>
+		<td>
+		  <a href="Quizzes/Quiz 3.pdf">Quiz</a>
+		</td>
+		<td>
+		  <a href="Quizzes/Quiz 3 Solutions.pdf">Solutions</a>
+		</td>
+	      </tr>
+	      <tr>
+		<td>
+		  Quiz 4 (7/3/2018)
+		</td>
+		<td>
+		  <a href="Quizzes/Quiz 4.pdf">Quiz</a>
+		</td>
+		<td>
+		  <a href="Quizzes/Quiz 4 Solutions.pdf">Solutions</a>
+		</td>
+	      </tr>
+	      <tr>
+		<td>
+		  Quiz 5 (7/13/2018)
+		</td>
+		<td>
+		  <a href="Quizzes/Quiz 5.pdf">Quiz</a>
+		</td>
+		<td>
+		  <a href="Quizzes/Quiz 5 Solutions.pdf">Solutions</a>
+		</td>
+	      </tr>
+	      <tr>
+		<td>
+		  Quiz 6 (7/17/2018)
+		</td>
+		<td>
+		  <a href="Quizzes/Quiz 6.pdf">Quiz</a>
+		</td>
+		<td>
+		  <a href="Quizzes/Quiz 6 Solutions.pdf">Solutions</a>
+		</td>
+	      </tr>
+	      <tr>
+		<td>
+		  Quiz 7 (7/20/2018)
+		</td>
+		<td>
+		  <a href="Quizzes/Quiz 7.pdf">Quiz</a>
+		</td>
+		<td>
+		  <a href="Quizzes/Quiz 7 Solutions.pdf">Solutions</a>
+		</td>
+	      </tr>
+	      <tr>
+		<td>
+		  Quiz 8 (7/27/2018)
+		</td>
+		<td>
+		  <a href="Quizzes/Quiz 8.pdf">Quiz</a>
+		</td>
+		<td>
+		  <a href="Quizzes/Quiz 8 Solutions.pdf">Solutions</a>
+		</td>
+	      </tr>
+	      <tr>
+		<td>
+		  Quiz 9 (7/31/2018)
+		</td>
+		<td>
+		  <a href="Quizzes/Quiz 9.pdf">Quiz</a>
+		</td>
+		<td>
+		  <a href="Quizzes/Quiz 9 Solutions.pdf">Solutions</a>
+		</td>
+	      </tr>
+	      <tr>
+		<td>
+		  Quiz 10 (8/3/2018)
+		</td>
+		<td>
+		  <a href="Quizzes/Quiz 10.pdf">Quiz</a>
+		</td>
+		<td>
+		  <a href="Quizzes/Quiz 10 Solutions.pdf">Solutions</a>
+		</td>
+	      </tr>
+	      <tr>
+		<td>
+		  Quiz 11 (8/7/2018)
+		</td>
+		<td>
+		  <a href="Quizzes/Quiz 11.pdf">Quiz</a>
+		</td>
+		<td>
+		  <a href="Quizzes/Quiz 11 Solutions.pdf">Solutions</a>
+		</td>
+	      </tr>
+	    </tbody>
+	  </table>
+	  <hr>
+	  <h2>Exams</h2>
+	  <table>
+	    <tbody>
+	      <tr>
+		<td>
+		  Midterm 1 (7/6/2018)
+		</td>
+		<td>
+		  <a href="Midterm 1 Review.pdf">Review Guide</a>
+		</td>
+		<td>
+		  <a href="Midterm 1 Review Solutions.pdf">Solutions</a>
+		</td>
+		<td>
+		  <a href="Midterm 1.pdf">Exam</a>
+		</td>
+		<td>
+		  <a href="Midterm 1 Solutions.pdf">Solutions</a>
+		</td>
+	      </tr>
+	      <tr>
+		<td>
+		  Midterm 2 (7/19/2018)
+		</td>
+		<td>
+		  <a href="Midterm 2 Review.pdf">Review Guide</a>
+		</td>
+		<td>
+		  <a href="Midterm 2 Review Solutions.pdf">Solutions</a>
+		</td>
+		<td>
+		  <a href="Midterm 2.pdf">Exam</a>
+		</td>
+		<td>
+		  <a href="Midterm 2 Solutions.pdf">Solutions</a>
+		</td>
+	      </tr>
+	      <tr>
+		<td>
+		  Final (8/9/2018)
+		</td>
+		<td>
+		  <a href="Final Review.pdf">Review Guide</a>
+		</td>
+		<td>
+		  <a href="Final Review Solutions.pdf">Solutions</a>
+		</td>
+		<td>
+		  <a href="Practice Final.pdf">Practice</a>
+		</td>
+		<td>
+		  <a href="Practice Final Solutions.pdf">Solutions</a>
+		</td>
+		<td>
+		  <a href="Final.pdf">Exam</a>
+		</td>
+		<td>
+		  <a href="Final Solutions.pdf">Solutions</a>
+		</td>
+	      </tr>
+	    </tbody>
+	  </table>
+	  <hr>
+	  <h2>Schedule</h2>
+	  <table border="" cellpadding="1">
+	    <tr style="font-weight: bold; background: #e0e0ff">
+	      <td>Date</td>
+	      <td>Topic</td>
+	      <td>Read</td>
+	      <td>Worksheet</td>
+	    </tr>
+	    <tr>
+	      <td rowspan ="5">Week 1<br>(6/18 - 6/22)</td>
+	      <td>
+		Introduction; Functions
+	      </td>
+	      <td> 1.1, 1.5</td>
+	      <td></td>
+	    </tr>
+	    <tr>
+	      <td>Transformations and Limits </td>
+	      <td>1.5, 1.6, 2.2</td>
+	      <td><a href="Worksheets/Discussion 2.pdf">PDF</a> <a href="Worksheets/Discussion 2 Solutions.pdf">Solutions</a></td>
+	    </tr>
+	    <tr>
+	      <td>Limits and Continuity </td>
+	      <td>2.2, 2.3, 2.4</td>
+	      <td><a href="Worksheets/Discussion 3.pdf">PDF</a> <a href="Worksheets/Discussion 3 Solutions.pdf">Solutions</a></td>
+	    </tr>
+	    <tr>
+	      <td>Derivatives and Tangents </td>
+	      <td>2.6, 2.7, 3.5</td>
+	      <td><a href="Worksheets/Discussion 4.pdf">PDF</a> <a href="Worksheets/Discussion 4 Solutions.pdf">Solutions</a></td>
+	    </tr>
+	    <tr>
+	      <td>Derivative Laws </td>
+	      <td>3.2, 3.3</td>
+	      <td><a href="Worksheets/Discussion 5.pdf">PDF</a> <a href="Worksheets/Discussion 5 Solutions.pdf">Solutions</a></td>
+	    </tr>
+	    <tr>
+	      <td rowspan="5">Week 2<br>(6/25 - 6/29)</td>
+	      <td>Implicit Differentiation and Local Extrema</td>
+	      <td>3.6, 4.2</td>
+	      <td><a href="Worksheets/Discussion 6.pdf">PDF</a> <a href="Worksheets/Discussion 6 Solutions.pdf">Solutions</a></td>
+	    </tr>
+	    <tr>
+	      <td>Sketching Functions </td>
+	      <td>4.1, 4.2</td>
+	      <td><a href="Worksheets/Discussion 7.pdf">PDF</a> <a href="Worksheets/Discussion 7 Solutions.pdf">Solutions</a></td>
+	    </tr>
+	    <tr>
+	      <td>Global Extrema; Optimization </td>
+	      <td>4.3, 4.4</td>
+	      <td><a href="Worksheets/Discussion 8.pdf">PDF</a> <a href="Worksheets/Discussion 8 Solutions.pdf">Solutions</a></td>
+	    </tr>
+	    <tr>
+	      <td>Related Rates </td>
+	      <td>3.3</td>
+	      <td><a href="Worksheets/Discussion 9.pdf">PDF</a> <a href="Worksheets/Discussion 9 Solutions.pdf">Solutions</a></td>
+	    </tr>
+	    <tr>
+	      <td>L'Hopital's Rule </td>
+	      <td>3.7</td>
+	      <td><a href="Worksheets/Discussion 10.pdf">PDF</a> <a href="Worksheets/Discussion 10 Solutions.pdf">Solutions</a></td>
+	    </tr>
+	    <tr>
+	      <td rowspan="5">Week 3<br>(7/2 - 7/6)</td>
+	      <td>Taylor Series</td>
+	      <td>3.5, 3.6</td>
+	      <td><a href="Worksheets/Discussion 11.pdf">PDF</a> <a href="Worksheets/Discussion 11 Solutions.pdf">Solutions</a></td>
+	    </tr>
+	    <tr>
+	      <td>Newton's Method </td>
+	      <td>4.5</td>
+	      <td><a href="Worksheets/Discussion 12.pdf">PDF</a> <a href="Worksheets/Discussion 12 Solutions.pdf">Solutions</a></td>
+	    </tr>
+	    <tr>
+	      <td style="background-color: #d0d0ff">Fourth of July Holiday</td>
+	      <td></td>
+	      <td></td>
+	    </tr>
+	    <tr>
+	      <td>Review </td>
+	      <td></td>
+	      <td><a href="Midterm 1 Review.pdf">PDF</a> <a href="Midterm 1 Review Solutions.pdf">Solutions</a></td>
+	    </tr>
+	    <tr>
+	      <td style="background-color: #ffd0d0">Midterm 1</td>
+	      <td></td>
+	      <td></td>
+	    </tr>
+	    <tr>
+	      <td rowspan="5">Week 4<br>(7/9 - 7/13)</td>
+	      <td>Antiderivatives; Riemann Integration</td>
+	      <td>5.1, 5.2, 5.3</td>
+	      <td><a href="Worksheets/Discussion 16.pdf">PDF</a> <a href="Worksheets/Discussion 16 Solutions.pdf">Solutions</a></td>
+	    </tr>
+	    <tr>
+	      <td>FTC; Substitution Rule</td>
+	      <td>5.4, 5.5</td>
+	      <td><a href="Worksheets/Discussion 17.pdf">PDF</a> <a href="Worksheets/Discussion 17 Solutions.pdf">Solutions</a></td>
+	    </tr>
+	    <tr>
+	      <td>Symmetry; Integration by Parts </td>
+	      <td>5.6</td>
+	      <td><a href="Worksheets/Discussion 18.pdf">PDF</a> <a href="Worksheets/Discussion 18 Solutions.pdf">Solutions</a></td>
+	    </tr><tr>
+	      <td>Numerical Integration </td>
+	      <td>5.7</td>
+	      <td><a href="Worksheets/Discussion 19.pdf">PDF</a> <a href="Worksheets/Discussion 19 Solutions.pdf">Solutions</a></td>
+	    </tr>
+	    <tr>
+	      <td>Numerical Integration Error </td>
+	      <td>5.7</td>
+	      <td><a href="Worksheets/Discussion 20.pdf">PDF</a> <a href="Worksheets/Discussion 20 Solutions.pdf">Solutions</a></td>
+	    </tr>
+	    <tr>
+	      <td rowspan="5">Week 5<br>(7/16 - 7/20)</td>
+	      <td>Improper Integrals; Convergence</td>
+	      <td>7.2</td>
+	      <td><a href="Worksheets/Discussion 21.pdf">PDF</a> <a href="Worksheets/Discussion 21 Solutions.pdf">Solutions</a></td>
+	    </tr>
+	    <tr>
+	      <td>Partial Fractions </td>
+	      <td>5.6</td>
+	      <td><a href="Worksheets/Discussion 22.pdf">PDF</a> <a href="Worksheets/Discussion 22 Solutions.pdf">Solutions</a></td>
+	    </tr>
+	    <tr>
+	      <td>Review </td>
+	      <td></td>
+	      <td><a href="Midterm 2 Review.pdf">PDF</a> <a href="Midterm 2 Review Solutions.pdf">Solutions</a></td>
+	    <tr>
+	      <td style="background-color: #ffd0d0">Midterm 2</td>
+	      <td></td>
+	      <td></td>
+	    </tr>
+	    <tr>
+	      <td>Recurrence Relations </td>
+	      <td>1.7</td>
+	      <td><a href="Worksheets/Discussion 25.pdf">PDF</a> <a href="Worksheets/Discussion 25 Solutions.pdf">Solutions</a></td>
+	    </tr><tr>
+	      <td rowspan="5">Week 6<br>(7/23 - 7/27)</td>
+	      <td>Solving RRs; Differential Equations</td>
+	      <td>6.1</td>
+	      <td><a href="Worksheets/Discussion 26.pdf">PDF</a> <a href="Worksheets/Discussion 26 Solutions.pdf">Solutions</a></td></td>
+	    </tr>
+	    <tr>
+	      <td>Second-order ODEs </td>
+	      <td></td>
+	      <td><a href="Worksheets/Discussion 27.pdf">PDF</a> <a href="Worksheets/Discussion 27 Solutions.pdf">Solutions</a></td></td>
+	    <tr>
+	      <td>Integrating Factors; Separable Equations </td>
+	      <td>6.2</td>
+	      <td><a href="Worksheets/Discussion 28.pdf">PDF</a> <a href="Worksheets/Discussion 28 Solutions.pdf">Solutions</a></td>
+	    </tr>
+	    <tr>
+	      <td>Slope Fields; Euler's Method </td>
+	      <td>6.4</td>
+	      <td><a href="Worksheets/Discussion 29.pdf">PDF</a> <a href="Worksheets/Discussion 29 Solutions.pdf">Solutions</a></td></td>
+	    </tr>
+	    <tr>
+	      <td>Logistic Growth </td>
+	      <td>6.5</td>
+	      <td><a href="Worksheets/Discussion 30.pdf">PDF</a> <a href="Worksheets/Discussion 30 Solutions.pdf">Solutions</a></td>
+	    </tr><tr>
+	      <td rowspan="5">Week 7<br>(7/30 - 8/3)</td>
+	      <td>Matrix Algebra</td>
+	      <td>8.2</td>
+	      <td><a href="Worksheets/Discussion 31.pdf">PDF</a> <a href="Worksheets/Discussion 31 Solutions.pdf">Solutions</a></td></td>
+	    </tr>
+	    <tr>
+	      <td>Determinants; Inverses </td>
+	      <td>8.2</td>
+	      <td><a href="Worksheets/Discussion 32.pdf">PDF</a> <a href="Worksheets/Discussion 32 Solutions.pdf">Solutions</a></td></td>
+	    </tr>
+	    <tr>
+	      <td>Gaussian Elimination </td>
+	      <td>8.2</td>
+	      <td><a href="Worksheets/Discussion 33.pdf">PDF</a> <a href="Worksheets/Discussion 33 Solutions.pdf">Solutions</a></td>
+	    </tr><tr>
+	      <td>Eigenvalues; Eigenvectors </td>
+	      <td>8.3, 8.4</td>
+	      <td><a href="Worksheets/Discussion 34.pdf">PDF</a> <a href="Worksheets/Discussion 34 Solutions.pdf">Solutions</a></td></td>
+	    </tr>
+	    <tr>
+	      <td>Least Squares; Linear Regression </td>
+	      <td></td>
+	      <td><a href="Worksheets/Discussion 35.pdf">PDF</a> <a href="Worksheets/Discussion 35 Solutions.pdf">Solutions</a></td>
+	    </tr>
+	    <tr>
+	      <td rowspan="5">Week 8<br>(8/6 - 8/10)</td>
+	      <td>Practice Final </td>
+	      <td></td>
+	      <td><a href="Practice Final.pdf">PDF</a> <a href="Practice Final Solutions.pdf">Solutions</a></td>
+	    </tr>
+	    <tr>
+	      <td>Review </td>
+	      <td></td>
+	      <td></td>
+	    </tr>
+	    <tr>
+	      <td>Review </td>
+	      <td></td>
+	      <td></td>
+	    </tr>
+	    <tr>
+	      <td style="background-color: #ffd0d0">Final</td>
+	      <td></td>
+	      <td></td>
+	    </tr>
+	    <tr>
+	      <td style="background-color: #d0d0ff">No Class</td>
+	      <td></td>
+	      <td></td>
+	    </tr>
+	       </table><hr>
+	</div>
+      </div>
+    </div>
+  </body>
+</html>

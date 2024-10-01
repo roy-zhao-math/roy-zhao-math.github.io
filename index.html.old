@@ -1,0 +1,82 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title> Roy Zhao </title>
+    <link rel="stylesheet" href="style.css">
+
+  </head>
+  <body>
+
+    <div id='header'>
+      <table width="100%">
+	<tbody>
+	  <tr>
+	    <td>
+	      <div id="name"><a href="index.html" style="text-decoration: none; color: inherit;">Roy Zhao</a>
+	      </div>
+	    </td>
+	    <td align="right" valign="middle">
+	      <div class="navbar">
+		<a class="header" href="index.html#about">About</a>
+		<a class="header" href="index.html#teaching">Teaching</a>
+	      </div>
+	    </td>
+	  </tr>
+	</tbody>
+      </table>
+    </div>
+
+    <hr>
+    <div id='page' align='left'>
+      <div id='content'>
+	    <img src='me.jpg' width=400px align='right' style="0px 0px 10px 10px">
+	      <h2><a id='about'>About Me</a></h2>
+	      I am a fifth-year graduate student in the Mathematics department at UC Berkeley under the supervision of <a class="link" href="https://math.berkeley.edu/~yxy">Xinyi Yuan</a>. Previously, I was an undergraduate at Princeton University. While at Princeton, I completed a senior thesis that was advised by Professor Chris Skinner. In Fall 2016, I studied abroad at <a class="link" href="https://www.ethz.ch/en.html">ETH: Zürich</a>.
+	      <br>
+	      <br>
+	      My research interests are algebraic number theory and arithmetic geometry. I am broadly interested in Arakelov geometry, abelian varieties, and Shimura varieties. I am also interested in multi-parameter persistent homology. I am also a contributor to a two-parameter persistent homology visualizer <a class="link" href="http://rivet.online/">RIVET</a>.
+	      <br>
+	      <br>
+	      Outside of math, I enjoy wind-surfing and sailing at the Berkeley marina, cooking, and running. I also enjoy baking various sweets such as cookies and cheesecakes.
+<br>
+
+	  <h2><a id='teaching'>Teaching</a></h2>
+	  At Berkeley, I am currently the instructor-of-record for MATH 74 (Fall 2021) (<a class="link" href="https://bcourses.berkeley.edu/courses/1508870">webpage</a>). <br>
+
+          I am also involved in the Berkeley Math Circle (<a class="link" href="https://mathcircle.berkeley.edu">webpage</a>) and also an instructor for <a class="link" href="https://mathcircle.berkeley.edu/index.php/math-taught-right-way-program">MTRW</a>.
+            <br>
+	    I have previously taught as a:
+	    <ul>
+	      <li>GSI for MATH 10A, Methods of Mathematics (Fall 2017) (<a class="link" href="10AFall17/index.html">webpage</a>)</li>
+	      <li>GSI for MATH 10B, Methods of Mathematics (Spring 2018) (<a class="link" href="10BSpring18/index.html">webpage</a>)</li>
+	      <li>Lecturer for MATH 10A, Methods of Mathematics (Summer 2018) (<a class="link" href="10ASummer18/index.html">webpage</a>)</li>
+	      <li>GSI for MATH 10B, Methods of Mathematics (Spring 2019) (<a class="link" href="10BSpring19/index.html">webpage</a>)</li>
+	      <li>GSI for MATH 53, Multivariable Calculus (Summer 2019)</li>
+	      <li>GSI for MATH 113, Introduction to Abstract Algebra (Fall 2019)</li>
+	      <li>GSI for MATH 115, Introduction to Number Theory (Fall 2019)</li>
+	      <li>GSI for MATH 74, Introduction to Mathematical Proofs (Fall 2020) (<a class="link" href="74Fall20/index.html">webpage</a>)</li>
+	    </ul>
+
+	    <br>
+	    
+	    At Princeton, I was previously:
+	    <ul>
+	      <li>TA for MAT 216, Accelerated Honors Analysis I (Fall 2014)</li>
+	      <li>TA for MAT 218, Accelerated Honors Analysis II (Spring 2015) </li>
+	      <li>TA for MAT 215, Honors Analysis (Single Variable) (Spring 2016) </li>
+	      <li>TA for MAT 335, Analysis II: Complex Analysis (Fall 2016) </li>
+	      <li>TA for MAT 346, Algebra II (Spring 2017) </li>
+	    </ul>
+	  
+	  	      <h2>Contact Details</h2>
+	      UC Berkeley<br>
+	      Evans Hall 869<br>
+	      <span class="obfuscate" style="cursor: auto;">
+		rh<span class="ob-dud"></span>zhao<span class="ob-ta"></span>berk<span class="ob-dud"></span>eley<span class="ob-tod"></span>edu
+	      </span>	
+      </div>
+    </div>
+  </body>
+</html>

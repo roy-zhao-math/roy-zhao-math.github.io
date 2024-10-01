@@ -1,0 +1,61 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title> Roy Zhao </title>
+    <link rel="stylesheet" href="style.css">
+
+  </head>
+  <body>
+
+    <div id='header'>
+      <table width="100%">
+	<tbody>
+	  <tr>
+	    <td>
+	      <div id="name"><a href="index.html" style="text-decoration: none; color: inherit;">Roy Zhao</a>
+	      </div>
+	    </td>
+	    <td align="right" valign="middle">
+	      <div class="navbar">
+		<a class="header" href="index.html">About</a>
+		<a class="header" href="teaching.html">Teaching</a>
+	      </div>
+	    </td>
+	  </tr>
+	</tbody>
+      </table>
+    </div>
+
+    <hr>
+    <div id='page' align='center'>
+      <div id='content'>
+	
+	<table>
+	  <tr>
+	    <td><img src='me.png' width=400px></td>
+	    <td valign="top">
+	      <h2>About Me</h2>
+	      I am a second-year graduate student in the Mathematics department at UC Berkeley. I am studying Arakelov geometry under the supervision of <a href="https://math.berkeley.edu/~yxy">Xinyi Yuan</a>. Previously, I was an undergraduate at Princeton University. While at Princeton, I completed a senior thesis that was advised by Professor Chris Skinner. In Fall 2016, I studied abroad at <a href="https://www.ethz.ch/en.html">ETH: Zürich</a>.
+	      <br>
+	      <br>
+	      My research interests are algebraic number theory and arithmetic geometry. I am also interested in multi-parameter persistent homology. I am also a contributor to a two-parameter persistent homology visualizer <a class="link" href="http://rivet.online/">RIVET</a>.
+	      <br>
+	      <br>
+	      Outside of math, I enjoy cooking. I primarily cook Chinese and Italian dishes but also am trying to learn other recipes. I also enjoy baking cookies and cheesecakes.
+	      <br>
+	      <br>
+	      <h2>Contact Details</h2>
+	      UC Berkeley<br>
+	      Evans Hall 1042<br>
+	      <span class="obfuscate" style="cursor: auto;">
+		rh<span class="ob-dud"></span>zhao<span class="ob-ta"></span>berk<span class="ob-dud"></span>eley<span class="ob-tod"></span>edu
+	      </span>
+	    </td>
+	  </tr>
+	</table>	
+      </div>
+    </div>
+  </body>
+</html>

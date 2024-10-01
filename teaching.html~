@@ -1,0 +1,60 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title> Roy Zhao </title>
+    <link rel="stylesheet" href="style.css">
+
+  </head>
+  <body>
+
+    <div id='header'>
+      <table width="100%">
+	<tbody>
+	  <tr>
+	    <td>
+	      <div id="name"><a href="index.html" style="text-decoration: none; color: inherit;">Roy Zhao</a>
+	      </div>
+	    </td>
+	    <td align="right" valign="middle">
+	      <div class="navbar">
+		<a class="header" href="index.html">About</a>
+		<a class="header" href="teaching.html">Teaching</a>
+	      </div>
+	    </td>
+	  </tr>
+	</tbody>
+      </table>
+    </div>
+
+    <hr>
+    <center>
+      <div id='page'>
+	<div id='content'>
+	  <div style="display: inline-block; text-align: left;">
+	    <h2>Teaching</h2>
+	    At Berkeley, I am currently a lecturer for MATH 10A, Methods of Mathematics: Calculus, Statistics and Combinatorics (Summer 2018). View the course webpage <a class="link" href="10ASummer18/index.html">here</a>.
+
+	    I was previously:
+	    <ul>
+	      <li>GSI for MATH 10A, Methods of Mathematics (Fall 2017) (<a class="link" href="10AFall17/index.html">webpage</a>)</li>
+	      <li>GSI for MATH 10B, Methods of Mathematics (Spring 2018) (<a class="link" href="10BSpring18/index.html">webpage</a>)</li>
+	    </ul>
+
+	    <br>
+	    
+	    At Princeton, I was previously:
+	    <ul>
+	      <li>TA for MAT 216, Accelerated Honors Analysis I (Fall 2014)</li>
+	      <li>TA for MAT 218, Accelerated Honors Analysis II (Spring 2015) </li>
+	      <li>TA for MAT 215, Honors Analysis (Single Variable) (Spring 2016) </li>
+	      <li>TA for MAT 335, Analysis II: Complex Analysis (Fall 2016) </li>
+	      <li>TA for MAT 346, Algebra II (Spring 2017) </li>
+	    </ul>
+	  </div>
+	</div>
+      </div>
+    </center>
+  </body>
+</html>
