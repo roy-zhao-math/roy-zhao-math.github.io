@@ -5,7 +5,7 @@ document.write('\
 	<tbody>\
 	  <tr>\
 	    <td>\
-	      <div id="name"><a href="/~rhzhao/index.html" style="text-decoration: none; color: inherit;">Roy Zhao</a>\
+	      <div id="name"><a href="index.html" style="text-decoration: none; color: inherit;">Roy Zhao</a>\
 	      </div>\
 	    </td>\
 	    <td align="right" valign="middle">\
