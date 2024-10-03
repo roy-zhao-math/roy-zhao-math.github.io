@@ -10,10 +10,10 @@ document.write('\
 	    </td>\
 	    <td align="right" valign="middle">\
 	      <div class="navbar">\
-		<a class="header" href="/~rhzhao/index.html">About</a>\
-		<a class="header" href="/~rhzhao/teaching.html">Teaching</a>\
-		<a class="header" href="/~rhzhao/service.html">Service</a>\
-<!--		<a class="header" href="/~rhzhao/cv.html">CV</a>\
+		<a class="header" href="index.html">About</a>\
+		<a class="header" href="teaching.html">Teaching</a>\
+		<a class="header" href="service.html">Service</a>\
+<!--		<a class="header" href="cv.html">CV</a>\
 -->	      </div>\
 	    </td>\
 	  </tr>\
